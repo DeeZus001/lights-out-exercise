@@ -1,11 +1,16 @@
 import React from 'react';
+import Header from './Header';
+import Cell from './Cell';
+import Board from './Board';
 
-function App() {
-  return (
+const App = () => 
     <div className="App">
-      {/* Your components will go here */}
+      
+      <Header />
+      <Board />
+      
     </div>
-  );
-}
+  ;
+
 
 export default App;

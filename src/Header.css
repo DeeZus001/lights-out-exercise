@@ -1,0 +1,12 @@
+.header {
+    font-size: calc(15px);
+    letter-spacing: 2px;
+}
+.red {
+    color: var(--red);
+    animation: flicker 1.5s infinite;
+    
+}
+.green {
+    color: var(--green);
+}
